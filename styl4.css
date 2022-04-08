@@ -1,0 +1,44 @@
+body{
+    font-family: garamond;
+}
+.baner{
+    background-color: SaddleBrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.lewy{
+    float: left;
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+}
+.prawy1{
+    float: left;
+    background-color: tan;
+    width: 60%;
+    height: 250px;
+}
+.prawy2{
+    float: left;
+    background-color: tan;
+    width: 60%;
+    height: 250px;
+}
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
+    background-color: SaddleBrown;
+    width: 300px;
+}
+footer{
+    background-color: SaddleBrown;
+    color: white;
+    clear: both;
+}
+p:before{
+    content: "STATUS: ";
+}
