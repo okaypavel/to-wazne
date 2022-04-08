@@ -1,0 +1,6 @@
+Kwerendy
+
+1. SELECT id, tytul, tresc FROM ogloszenie WHERE kategoria = 1
+2. SELECT uzytkownik.telefon FROM ogloszenie, uzytkownik WHERE ogloszenie.id = 1 AND uzytkownik.id = ogloszenie.uzytkownik_id
+3. CREATE USER 'moderator'@'localhost' IDENTIFIED BY 'qwerty'
+4. GRANT SELECT, DELETE ON ogloszenia.ogloszenie TO 'moderator'@'localhost'
